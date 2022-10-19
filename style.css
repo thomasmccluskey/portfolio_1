@@ -1,0 +1,879 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1 {
+  font-family: 'Roboto';
+  color: black;
+}
+
+body {
+  color: white;
+}
+
+.mobiletitle {
+  display: none;
+  margin-top: -5px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.title {
+  color: transparent;
+}
+
+.logo {
+  display: flex;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.sidebar {
+  display: none;
+}
+
+.nav {
+  margin-left: -10px;
+  margin-top: -65px;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.nav>.nav-header>.nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+
+.nav>.nav-links {
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/arimo/v24/P5sMzZCDf9_T_10UxCFuj5-v6dg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  display: inline;
+  float: right;
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+.nav>.nav-links>a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #515151;
+  /* work/p5js/about color */
+}
+
+.nav>.nav-links>a:hover {
+  text-decoration: underline;
+}
+
+.motion1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.motion2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.motion3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 150px;
+}
+
+.motion4 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.motion5 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 150px;
+}
+
+.motion6 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.motion7 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 150px;
+}
+
+.motion8 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.three1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.three2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.three3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 150px;
+}
+
+.three4 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.three5 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 150px;
+}
+
+.digifab1 {
+  /* change display:none to display:flex when adding in work */
+  display: none;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+
+.uxdesign1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.uxdesign2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.interactive1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.interactive2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.research1 {
+  /* change display:none to display:flex when adding in work */
+  display: none;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.other1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.other2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 200px;
+}
+
+.images {
+  width: 75vw;
+  height: auto;
+}
+
+.footer {
+  background-color: white;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  bottom: 0;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto';
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  /* * {
+    cursor: none;
+  } */
+
+  .first_page_bg {
+    background-color: #b1d5e3;
+    margin-top: -500px;
+    width: 100%;
+    height: 900px;
+  }
+
+  .sidebar {
+    display: flex;
+    justify-content: left;
+    padding-top: 100px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+  }
+
+  .mobilenavbar {
+    display: none;
+  }
+
+  /* .cursor-dot {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+  } */
+
+  .title {
+    color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .mobiletitle {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+
+  .nav {
+    margin-left: -40px;
+    margin-top: -65px;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+
+
+  .nav>.nav-links {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v24/P5sMzZCDf9_T_10UxCFuj5-v6dg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    display: inline;
+    float: right;
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #515151;
+    /* work/p5js/about color */
+  }
+
+  .nav>.nav-links>a:hover {
+    text-decoration: underline;
+  }
+
+  .item {
+    transition: transform .4s;
+    transition-timing-function: all 1s ease-in;
+  }
+
+  .item:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.15);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+
+
+
+  .motion1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 300px;
+    text-align: left;
+  }
+
+  .motion2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .motion4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion5 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .motion6 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion7 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .motion8 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .three2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .three4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three5 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  .digifab1 {
+    /* change display:none to display:flex when adding in work */
+    display: none;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+
+  .uxdesign1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .uxdesign2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .interactive1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .interactive2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .research1 {
+    /* change display:none to display:flex when adding in work */
+    display: none;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .other1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .other2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .images {
+    width: 40vw;
+    height: auto;
+  }
+
+  .videoWrapper {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    height: 630px;
+    margin-top: 35px;
+  }
+
+  .title1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: black;
+  }
+
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 70%;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: black;
+  }
+}
+
+
+
+@media screen and (min-width: 1250px) {
+  /* * {
+    cursor: none;
+  } */
+
+  .first_page_bg {
+    background-color: #9ecfe7;
+    margin-top: -500px;
+    width: 100%;
+    height: 900px;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: left;
+    padding-top: 100px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #000010;
+  }
+
+  .mobilenavbar {
+    display: none;
+  }
+
+  /* .cursor-dot {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+  } */
+
+  .title {
+    position: fixed;
+    color: #000010;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .mobiletitle {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+
+  .nav {
+    margin-left: -40px;
+    margin-top: -65px;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+
+
+  .nav>.nav-links {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/arimo/v24/P5sMzZCDf9_T_10UxCFuj5-v6dg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    display: inline;
+    float: right;
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #000010;
+    /* work/p5js/about color */
+  }
+
+  .nav>.nav-links>a:hover {
+    text-decoration: underline;
+  }
+
+  .item {
+    transition: transform .4s;
+    transition-timing-function: all 1s ease-in;
+  }
+
+  .item:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+  }
+
+
+
+  .motion1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 300px;
+    text-align: left;
+  }
+
+  .motion2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+
+  .motion4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion5 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+
+  .motion6 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .motion7 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+
+  .motion8 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .three2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+
+  .three4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .three5 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+
+  .digifab1 {
+    /* change display:none to display:flex when adding in work */
+    display: none;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+
+  .uxdesign1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .uxdesign2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .interactive1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .interactive2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .research1 {
+    /* change display:none to display:flex when adding in work */
+    display: none;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .other1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 350px;
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  .other2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 200px;
+  }
+
+  .images {
+    width: 30vw;
+    height: auto;
+  }
+
+  .videoWrapper {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    height: 630px;
+    margin-top: 35px;
+  }
+
+  .title1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: black;
+  }
+
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 70%;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: black;
+  }
+}
